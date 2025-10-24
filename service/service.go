@@ -8,8 +8,8 @@ import (
 	"log"
 	"regexp"
 
-	"github.com/nicolas-graves/lfs-s3/api"
-	"github.com/nicolas-graves/lfs-s3/s3adapter"
+	"github.com/loopingz/lfs-s3/api"
+	"github.com/loopingz/lfs-s3/s3adapter"
 )
 
 func Serve(stdin io.Reader, stdout, stderr io.Writer, config *s3adapter.Config) error {

@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
-	"github.com/nicolas-graves/lfs-s3/compression"
+	"github.com/loopingz/lfs-s3/compression"
 )
 
 type Config struct {

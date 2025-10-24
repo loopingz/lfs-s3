@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/nicolas-graves/lfs-s3/compression"
-	"github.com/nicolas-graves/lfs-s3/s3adapter"
-	"github.com/nicolas-graves/lfs-s3/service"
+	"github.com/loopingz/lfs-s3/compression"
+	"github.com/loopingz/lfs-s3/s3adapter"
+	"github.com/loopingz/lfs-s3/service"
 )
 
 var config s3adapter.Config
